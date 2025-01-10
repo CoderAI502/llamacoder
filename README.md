@@ -1,27 +1,59 @@
-<a href="https://www.llamacoder.io">
-  <img alt="Llama Coder" src="./public/og-image.png">
-  <h1 align="center">Llama Coder</h1>
-</a>
+# LlamaCoder
 
-<p align="center">
-  An open source Claude Artifacts – generate small apps with one prompt. Powered by Llama 3 on Together.ai.
-</p>
+LlamaCoder is an open-source AI-powered tool that generates complete applications from simple prompts. It leverages the Llama 3.1 405B model and Together AI’s inference capabilities to help users quickly transform ideas into functional applications.
 
-## Tech stack
+## Features
 
-- [Llama 3.1 405B](https://ai.meta.com/blog/meta-llama-3-1/) from Meta for the LLM
-- [Together AI](https://dub.sh/together-ai/?utm_source=example-app&utm_medium=llamacoder&utm_campaign=llamacoder-app-signup) for LLM inference
-- [Sandpack](https://sandpack.codesandbox.io/) for the code sandbox
-- Next.js app router with Tailwind
-- Helicone for observability
-- Plausible for website analytics
+- **One-click Application Generation**: Provide a simple prompt, and LlamaCoder generates a complete React application or component.
+- **Accelerated Development**: Jumpstart your projects and reduce manual coding time.
+- **Open Source**: Fully open-source and free to use, suitable for both developers and non-developers.
 
-## Cloning & running
+## Tech Stack
 
-1. Clone the repo: `git clone https://github.com/Nutlope/llamacoder`
-2. Create a `.env` file and add your [Together AI API key](https://dub.sh/together-ai/?utm_source=example-app&utm_medium=llamacoder&utm_campaign=llamacoder-app-signup): `TOGETHER_API_KEY=`
-3. Run `npm install` and `npm run dev` to install dependencies and run locally
+- **LLM**: Utilizes Meta’s Llama 3.1 405B model.
+- **Inference Service**: Powered by Together AI.
+- **Code Sandbox**: Integrated with Sandpack for live code previews.
+- **Frontend Framework**: Built with Next.js and Tailwind CSS.
+- **Observability**: Uses Helicone for monitoring.
+- **Web Analytics**: Integrated with Plausible for analytics.
 
-## Contributing
+## Installation and Usage
 
-For contributing to the repo, please see the [contributing guide](./CONTRIBUTING.md)
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/CoderAI502/llamacoder
+   ```
+
+2. Create a `.env` file and add your Together AI API key:
+
+   ```env
+   TOGETHER_API_KEY=your_api_key_here
+   ```
+
+3. Install dependencies and start the development server:
+
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+## Contribution Guidelines
+
+Contributions are welcome! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Resources
+
+- Official Website: [llamacoder.io](https://www.llamacoder.io/)
+- Blog Post: [Generating Full Applications with LlamaCoder and Together AI](https://ai.meta.com/blog/together-ai-llamacoder/)
+- Video Tutorial: [LlamaCoder 3.3: Developing Full-stack Applications Without Writing Code](https://www.youtube.com/watch?v=Zk8UsZ7VefA)
+
+> **Note**: LlamaCoder relies on Together AI’s API services. Please ensure you have a valid API key.
+
+> **Tip**: For production use, pay attention to security and performance optimization.
+
+Transform your ideas into applications effortlessly with LlamaCoder and experience the future of AI-driven development!
